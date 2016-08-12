@@ -1,0 +1,24 @@
+.wizard {
+    -fx-tab-max-height: -2 ;
+}
+.wizard .tab-header-area {
+    visibility: hidden ;
+}
+.wizard *.tab-header-background {
+	-fx-background-color: transparent;
+}
+.split-pane> .split-pane-divider {
+   -fx-border-color:  black;
+   -fx-background-color: transparent;
+   -fx-padding: 0 ;
+   -fx-background-insets: 0;
+}
+.menu{
+	
+}
+.menu:focused {
+     -fx-background-color: darkgray;
+}
+.heading{
+	-fx-font-size: 18px;
+}

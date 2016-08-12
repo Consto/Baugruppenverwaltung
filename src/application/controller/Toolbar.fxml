@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+<ToolBar prefWidth="420.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ToolbarController">
+   <items>
+      <MenuButton mnemonicParsing="false" styleClass="menu" stylesheets="@../layout/design.css">
+        <items>
+          <MenuItem fx:id="createSimpleMI" mnemonicParsing="false" text="+Einzellteil" />
+          <MenuItem fx:id="createGroupMI" mnemonicParsing="false" text="+Baugruppe" />
+        </items>
+         <graphic>
+            <HBox>
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/ic_add_box_black_48px.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </graphic>
+      </MenuButton>
+      <JFXButton onAction="#handleSave" text="Save">
+         <graphic>
+            <ImageView fitHeight="48.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/ic_save_black_48px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton onAction="#handleLoad" text="Load">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/folder-upload.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton onAction="#handleExport" text="Export">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/file-excel.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </items>
+</ToolBar>

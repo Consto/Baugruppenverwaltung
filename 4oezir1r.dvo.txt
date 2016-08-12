@@ -1,0 +1,72 @@
+﻿initial commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   .classpath
+#	new file:   .project
+#	new file:   BGV_V1.zip
+#	new file:   LICENSE.txt
+#	new file:   bin/application/Data.class
+#	new file:   bin/application/Main.class
+#	new file:   bin/application/Piece.class
+#	new file:   bin/application/PieceType.class
+#	new file:   bin/application/controller/Main.fxml
+#	new file:   bin/application/controller/PieceGroupDialog.fxml
+#	new file:   bin/application/controller/PieceGroupDialogController.class
+#	new file:   bin/application/controller/PieceGroupRow.fxml
+#	new file:   bin/application/controller/PieceGroupRowController.class
+#	new file:   bin/application/controller/PieceSmallDialog.fxml
+#	new file:   bin/application/controller/PieceSmallDialogController.class
+#	new file:   bin/application/controller/RecipeRow.fxml
+#	new file:   bin/application/controller/RecipeRowController.class
+#	new file:   bin/application/controller/Root.fxml
+#	new file:   bin/application/controller/Toolbar.fxml
+#	new file:   bin/application/controller/ToolbarController$1.class
+#	new file:   bin/application/controller/ToolbarController$2.class
+#	new file:   bin/application/controller/ToolbarController.class
+#	new file:   bin/application/controller/WarehouseOverviewController$1.class
+#	new file:   bin/application/controller/WarehouseOverviewController.class
+#	new file:   bin/application/layout/design.css
+#	new file:   bin/resources/file-excel.png
+#	new file:   bin/resources/folder-upload.png
+#	new file:   bin/resources/ic_add_box_black_48px.png
+#	new file:   bin/resources/ic_delete_forever_black_48px.png
+#	new file:   bin/resources/ic_edit_black_48px.png
+#	new file:   bin/resources/ic_save_black_48px.png
+#	new file:   build.fxbuild
+#	new file:   src/application/Data.java
+#	new file:   src/application/Main.java
+#	new file:   src/application/Piece.java
+#	new file:   src/application/PieceType.java
+#	new file:   src/application/controller/Main.fxml
+#	new file:   src/application/controller/PieceGroupDialog.fxml
+#	new file:   src/application/controller/PieceGroupDialogController.java
+#	new file:   src/application/controller/PieceGroupRow.fxml
+#	new file:   src/application/controller/PieceGroupRowController.java
+#	new file:   src/application/controller/PieceSmallDialog.fxml
+#	new file:   src/application/controller/PieceSmallDialogController.java
+#	new file:   src/application/controller/RecipeRow.fxml
+#	new file:   src/application/controller/RecipeRowController.java
+#	new file:   src/application/controller/Root.fxml
+#	new file:   src/application/controller/Toolbar.fxml
+#	new file:   src/application/controller/ToolbarController.java
+#	new file:   src/application/controller/WarehouseOverviewController.java
+#	new file:   src/application/layout/design.css
+#	new file:   src/resources/file-excel.png
+#	new file:   src/resources/folder-upload.png
+#	new file:   src/resources/ic_add_box_black_48px.png
+#	new file:   src/resources/ic_delete_forever_black_48px.png
+#	new file:   src/resources/ic_edit_black_48px.png
+#	new file:   src/resources/ic_save_black_48px.png
+#
+# Changes not staged for commit:
+#	deleted:    .gitattributes
+#	deleted:    .gitignore
+#
+# Untracked files:
+#	d4zeymrz.3b3.txt
+#
+
